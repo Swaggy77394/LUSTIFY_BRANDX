@@ -17,21 +17,21 @@ BOT_TOKEN = getenv("BOT_TOKEN",)
 BOT_USERNAME = getenv("BOT_USERNAME" , "Systumm_music_bot")
 
 # Get Your repo
-REPO_LINK = getenv("REPO_LINK" , "https://t.me/BRANDED_PAID_CC")
+REPO_LINK = getenv("REPO_LINK" , "https://github.com/Ahad611/IVAN-NISHA")
 
 # Don't Add style font 
 BOT_NAME = getenv("BOT_NAME" , "Sytumm")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI",)
+MONGO_DB_URI = getenv("MONGO_DB_URI","mongodb+srv://IVANxNISHA:IVANxNISHA@cluster0.pq52raw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 900))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID",))
+LOGGER_ID = int(getenv("LOGGER_ID","-1002847095020"))
 
 # Get this value from @CrewMusic_bot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 6258877205))
+OWNER_ID = int(getenv("OWNER_ID","8195241636"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -41,7 +41,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/WCGKING/SYSTUM",
+    "https://github.com/Ahad611/IVAN-NISHA",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
@@ -87,21 +87,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/tsfco0.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/4ft3kh.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/tsfco0.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/tbra0o.jpg"
 )
-PLAYLIST_IMG_URL = "https://te.legra.ph/file/2e2f78610814092d61103.jpg"
-STATS_IMG_URL = "https://te.legra.ph/file/e906c2def5afe8a9b9120.jpg"
-TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
-TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
-STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
-SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
-YOUTUBE_IMG_URL = "https://te.legra.ph/file/ce5ffb3d5f383c781f234.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/37d163a2f75e0d3b403d6.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/b35fd1dfca73b950b1b05.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/95b3ca7993bbfaf993dcb.jpg"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/0zhu1b.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/fd6a5x.jpg"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/kobtju.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/ksuz0m.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/futwz1.jpg"
+SOUNCLOUD_IMG_URL = "https://files.catbox.moe/ksuz0m.jpg"
+YOUTUBE_IMG_URL = "https://files.catbox.moe/futwz1.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/futwz1.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/fd6a5x.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/fd6a5x.jpg"
 
 
 def time_to_seconds(time):
