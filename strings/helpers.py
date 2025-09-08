@@ -149,3 +149,33 @@ HELP_15 = """
 /speed or /playback : ғᴏʀ ᴀᴅᴊᴜsᴛɪɴɢ ᴛʜᴇ ᴀᴜᴅɪᴏ ᴘʟᴀʏʙᴀᴄᴋ sᴘᴇᴇᴅ ɪɴ ɢʀᴏᴜᴘ.
 /cspeed or /cplayback : ғᴏʀ ᴀᴅᴊᴜsᴛɪɴɢ ᴛʜᴇ ᴀᴜᴅɪᴏ ᴘʟᴀʏʙᴀᴄᴋ sᴘᴇᴇᴅ ɪɴ ᴄʜᴀɴɴᴇʟ.
 """
+
+
+
+CLONE_HELP = """
+<b>ᴄʟᴏɴɪɴɢ ᴀ ʙᴏᴛ </b>🤖
+
+✨ ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ʙᴏᴛ ᴄʟᴏɴᴇ ᴇᴀsɪʟʏ ʙʏ ꜰᴏʟʟᴏᴡɪɴɢ ᴛʜᴇsᴇ sᴛᴇᴘs:
+
+① ᴏᴘᴇɴ @BotFather ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ.  
+② ᴛʏᴘᴇ /newbot ᴀɴᴅ ꜰᴏʟʟᴏᴡ ᴛʜᴇ ᴘʀᴏᴍᴘᴛs.  
+③ ᴄʜᴏᴏsᴇ ᴀ ᴅɪsᴘʟᴀʏ ɴᴀᴍᴇ ꜰᴏʀ ʏᴏᴜʀ ᴄʟᴏɴᴇ.  
+④ ᴘɪᴄᴋ ᴀ ᴜɴɪǫᴜᴇ ᴜsᴇʀɴᴀᴍᴇ (ᴍᴜsᴛ ᴇɴᴅ ᴡɪᴛʜ ʙᴏᴛ).  
+⑤ ᴏɴᴄᴇ ᴅᴏɴᴇ, @BotFather ᴡɪʟʟ ɢɪᴠᴇ ʏᴏᴜ ᴀɴ ᴀᴘɪ ᴛᴏᴋᴇɴ.  
+⑥ sᴇɴᴅ ᴛʜɪs ᴛᴏᴋᴇɴ ᴛᴏ @ClonifyMusic_Bot ɪɴ ᴘᴍ ᴜsɪɴɢ ᴛʜᴇ ꜰᴏʀᴍᴀᴛ ʙᴇʟᴏᴡ:  
+   <code>/clone ʏᴏᴜʀʙᴏᴛᴛᴏᴋᴇɴ </code>  
+   (❗ ᴅᴏ ɴᴏᴛ ɪɴᴄʟᴜᴅᴇ sǫᴜᴀʀᴇ ʙʀᴀᴄᴋᴇᴛs!)
+
+📌 ᴇxᴀᴍᴘʟᴇ:  
+<code>/clone 123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11</code>
+
+🎧<b> ᴏꜰꜰɪᴄɪᴀʟ ᴅᴇᴍᴏ ʙᴏᴛ:</b> @MoodyMusic_Bot
+"""
+#(https://t.me/NishaMusic_Bot) add right of username
+
+HELP_16 = """
+<b><u>Privacy Command :</b></u>
+
+/Privacy : Display the privacy statement for Sarcastic Bot 
+
+"""
