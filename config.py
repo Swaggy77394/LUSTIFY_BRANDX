@@ -7,31 +7,31 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID","29481920"))
-API_HASH = getenv("API_HASH","f700ddb0930acfab095b00911a2e6f3a")
+API_ID = int(getenv("API_ID","24208695"))
+API_HASH = getenv("API_HASH","fa96a7eb2dffe7f4cc8ba1399b68d24d")
 
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN",)
 
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "Systumm_music_bot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "LustifyMusicBoT")
 
 # Get Your repo
-REPO_LINK = getenv("REPO_LINK" , "https://github.com/Ahad611/IVAN-NISHA")
+REPO_LINK = getenv("REPO_LINK" , "https://github.com/BUG-MUSIX")
 
 # Don't Add style font 
-BOT_NAME = getenv("BOT_NAME" , "Sytumm")
+BOT_NAME = getenv("BOT_NAME" , "˹ʟᴜsᴛɪғʏ ♪ ᴍᴜsɪᴄ˼")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI","mongodb+srv://IVANxNISHA:IVANxNISHA@cluster0.pq52raw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+MONGO_DB_URI = getenv("MONGO_DB_URI","mongodb+srv://LUSTIFYXMUSIC:Abhi77394@lustifymusic.evxnqby.mongodb.net/?retryWrites=true&w=majority&appName=LUSTIFYMUSIC")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 900))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID","-1002847095020"))
+LOGGER_ID = int(getenv("LOGGER_ID","-1002553338682"))
 
 # Get this value from @CrewMusic_bot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID","8195241636"))
+OWNER_ID = int(getenv("OWNER_ID","7381712992"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -41,15 +41,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Ahad611/IVAN-NISHA",
+    "https://github.com/Swaggy77394/LUSTIFY_BRANDX",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Botsxupdate")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/IvanxNisha")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/SpicyxNetwork")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+HExHfuVltSVjMDhl")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -87,10 +87,10 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/4ft3kh.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/g16jnr.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/tbra0o.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/jwf18p.jpg"
 )
 PLAYLIST_IMG_URL = "https://files.catbox.moe/0zhu1b.jpg"
 STATS_IMG_URL = "https://files.catbox.moe/fd6a5x.jpg"
