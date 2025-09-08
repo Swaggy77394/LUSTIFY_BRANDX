@@ -1,4 +1,5 @@
 import time
+import random
 
 from pyrogram import filters
 from pyrogram.enums import ChatType
@@ -24,6 +25,24 @@ from config import BANNED_USERS
 from strings import get_string
 
 
+SWAGGY_PH = [
+    "https://files.catbox.moe/jrupn9.jpg",
+    "https://files.catbox.moe/5z141p.jpg",
+    "https://files.catbox.moe/fnl0h7.jpg",
+    "https://files.catbox.moe/1lz1go.jpg",
+    "https://files.catbox.moe/avackl.jpg",
+    "https://files.catbox.moe/1yrzwz.jpg",
+    "https://files.catbox.moe/6y22qw.jpg",
+    "https://files.catbox.moe/gnnsf2.jpg",
+    "https://files.catbox.moe/ss6r60.jpg",
+    "https://files.catbox.moe/yuob18.jpg",
+    "https://files.catbox.moe/i9xrrp.jpg",
+    "https://files.catbox.moe/a9tx8f.jpg"
+    "https://files.catbox.moe/wlt26x.jpg",
+    "https://files.catbox.moe/c1lylh.jpg",
+    "https://files.catbox.moe/82eymp.jpg",
+]
+
 @app.on_message(filters.command(["start"]) & filters.private & ~BANNED_USERS)
 @LanguageStart
 async def start_pm(client, message: Message, _):
@@ -33,7 +52,9 @@ async def start_pm(client, message: Message, _):
         if name[0:4] == "help":
             keyboard = help_pannel(_)
             return await message.reply_photo(
-                photo=config.START_IMG_URL,
+                random.choice(SWAGGY_PH),
+                #photo=config.START_IMG_URL,
+                has_spoiler=True,
                 caption=_["help_1"].format(config.SUPPORT_CHAT),
                 reply_markup=keyboard,
             )
@@ -85,7 +106,9 @@ async def start_pm(client, message: Message, _):
     else:
         out = private_panel(_)
         await message.reply_photo(
-            photo=config.START_IMG_URL,
+            random.choice(SWAGGY_PH),
+                #photo=config.START_IMG_URL,
+            has_spoiler=True,
             caption=_["start_2"].format(message.from_user.mention, app.mention),
             reply_markup=InlineKeyboardMarkup(out),
         )
@@ -102,7 +125,9 @@ async def start_gp(client, message: Message, _):
     out = start_panel(_)
     uptime = int(time.time() - _boot_)
     await message.reply_photo(
-        photo=config.START_IMG_URL,
+        random.choice(SWAGGY_PH),
+                #photo=config.START_IMG_URL,
+        has_spoiler=True,
         caption=_["start_1"].format(app.mention, get_readable_time(uptime)),
         reply_markup=InlineKeyboardMarkup(out),
     )
@@ -137,7 +162,9 @@ async def welcome(client, message: Message):
 
                 out = start_panel(_)
                 await message.reply_photo(
-                    photo=config.START_IMG_URL,
+                    random.choice(SWAGGY_PH),
+                #photo=config.START_IMG_URL,
+                    has_spoiler=True,
                     caption=_["start_3"].format(
                         message.from_user.first_name,
                         app.mention,
@@ -150,3 +177,4 @@ async def welcome(client, message: Message):
                 await message.stop_propagation()
         except Exception as ex:
             print(ex)
+
